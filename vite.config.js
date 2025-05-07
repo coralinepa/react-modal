@@ -11,7 +11,13 @@ export default defineConfig({
       fileName: "react-modal",
     },
     rollupOptions: {
-      external: ["react", "react-dom"],
+      external: [
+        "react",
+        "react-dom",
+        "react/jsx-runtime",
+        "prop-types",
+        "@radix-ui/react-icons",
+      ],
       output: {
         globals: {
           react: "React",
