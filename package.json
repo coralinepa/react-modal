@@ -3,10 +3,10 @@
   "version": "1.0.1",
   "description": "A reusable modal component for React",
   "main": "./dist/react-modal.umd.cjs",
-  "module": "./dist/react-modal.es.js",
+  "module": "./dist/react-modal.js",
   "exports": {
     ".": {
-      "import": "./dist/react-modal.es.js",
+      "import": "./dist/react-modal.js",
       "require": "./dist/react-modal.umd.cjs"
     }
   },
