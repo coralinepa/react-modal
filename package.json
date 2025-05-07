@@ -1,6 +1,6 @@
 {
   "name": "@coralinepa/react-modal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A reusable modal component for React",
   "main": "./dist/react-modal.umd.cjs",
   "module": "./dist/react-modal.es.js",
