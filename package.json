@@ -1,16 +1,9 @@
 {
   "name": "@coralinepa/react-modal",
   "version": "1.0.0",
+  "description": "A reusable modal component for React",
   "main": "./dist/react-modal.umd.cjs",
   "module": "./dist/react-modal.es.js",
-  "publishConfig": {
-    "access": "public"
-  },
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
   "exports": {
     ".": {
       "import": "./dist/react-modal.es.js",
@@ -20,17 +13,23 @@
   "files": [
     "dist"
   ],
-  "peerDependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+  "publishConfig": {
+    "access": "public"
   },
-  "dependencies": {
-    "@radix-ui/react-icons": "^1.3.2",
-    "prop-types": "^15.8.1",
-    "styled-components": "^6.1.17"
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.4.1",
-    "vite": "^6.3.5"
-  }
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "Coraline Parreau",
+  "license": "MIT"
 }
